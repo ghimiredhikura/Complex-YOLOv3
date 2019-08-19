@@ -1,7 +1,7 @@
 import torch
 import numpy as np
 
-root_dir = '../../../3D-Object-Detection/dataset/'
+root_dir = 'data'
 
 class_list = ["Car", "Pedestrian", "Cyclist"]
 
