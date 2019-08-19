@@ -19,7 +19,10 @@ Complete but Unofficial PyTorch Implementation of [Complex-YOLO: Real-time 3D Ob
     2. $ python test_both_side_detection.py --split=smaples --folder=sampledata
 
 #### Demo Video [[Click to Play](https://www.youtube.com/watch?v=JzywsbuXFOg)]
-[![gif_demo1][assets/complex-yolov3.gif]](https://youtu.be/JzywsbuXFOg)
+[![complex-yolov3_gif][complex-yolov3_gif]](https://youtu.be/JzywsbuXFOg)
+
+[//]: # (Image References)
+[complex-yolov3_gif]: ./assets/complex-yolov3.gif
 
 ## Data Preparation
 
