@@ -3,7 +3,7 @@ Complete but Unofficial PyTorch Implementation of [Complex-YOLO: Real-time 3D Ob
 
 ## Installation
 #### Clone the project and install requirements
-    $ git clone https://github.com/ghimiredhikura/Complex-YOLO-V3
+    $ git clone https://github.com/ghimiredhikura/Complex-YOLOv3
     $ cd Complex-YOLO-V3/
     $ sudo pip install -r requirements.txt
 
