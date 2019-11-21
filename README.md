@@ -1,22 +1,25 @@
 # Complex-YOLO-V3
 Complete but Unofficial PyTorch Implementation of [Complex-YOLO: Real-time 3D Object Detection on Point Clouds](https://arxiv.org/pdf/1803.06199.pdf) with YoloV3
 
+### Python3.6+ is recommended
+
+
 ## Installation
+
 #### Clone the project and install requirements
     $ git clone https://github.com/ghimiredhikura/Complex-YOLOv3
     $ cd Complex-YOLO-V3/
-    $ sudo pip install -r requirements.txt
+    $ sudo pip3 install -r requirements.txt
 
 ## Quickstart
-
 #### Download pretrained weights [[yolov3](https://drive.google.com/file/d/1e7PCqeV3tS68KtBIUbX34Uhy81XnsYZV/view), [tiny-yolov3](https://drive.google.com/file/d/19Qvpq2kQyjQ5uhQgi-wcWmSqFy4fcvny/view)]
     $ cd checkpoints/
-    $ python download_weights.py
+    $ python3.6 download_weights.py
     
 #### Test [without downloading dataset] 
 
-    1. $ python test_detection.py --split=sample --folder=sampledata  
-    2. $ python test_both_side_detection.py --split=sample --folder=sampledata
+    1. $ python3.6 test_detection.py --split=sample --folder=sampledata  
+    2. $ python3.6 test_both_side_detection.py --split=sample --folder=sampledata
 
 #### Demo Video [[Click to Play](https://www.youtube.com/watch?v=JzywsbuXFOg)]
 [![complex-yolov3_gif][complex-yolov3_gif]](https://youtu.be/JzywsbuXFOg)
@@ -90,11 +93,11 @@ The `train/valid` split of training dataset as well as `sample` and `test` datas
     ---- ETA 0:18:27.490254
 
 ## Test
-    $ python test_detection.py
-    $ python test_both_side_detection.py
+    $ python3.6 test_detection.py
+    $ python3.6 test_both_side_detection.py
 
 ## Evaluation
-    $ python eval_mAP.py 
+    $ python3.6 eval_mAP.py 
 
 mAP (min. 50 IoU)
 
